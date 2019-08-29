@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Endless Possibilities</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link href="Ryans-css-1.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand">Experimentation Lab</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                JavaScript Experiments
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Javascript.html">Basic Algorithms</a>
+                <a class="dropdown-item" href="DOM.html">DOM Manipulation Experimentation</a>
+                <a class="dropdown-item" href="Dicee.html">The Dicee Game!</a>
+                <a class="dropdown-item" href="Advanced_JS.html">Advanced JS and DOM Manipulation</a>
+              </div>
+            </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            JS Frameworks
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="JQuery.html">JQuery Experimentation</a>
+            <a class="dropdown-item" href="React.html">The Simon Game</a>
+            <a class="dropdown-item" href="React.html">Node.js (Notes)</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"></a>
+          </div>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Ruby.html">Backend Experimentation</a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Login-Signup.html"">Login/Signup</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main>
+  <h2>Login</h2>
+  <form class="needs-validation" id="login" novalidate>
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom01">Username</label>
+        <input type="text" class="form-control" id="validationCustom01" placeholder="Username" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom02">Password</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Password" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-secondary" type="submit">Login</button>
+<div>Don't have an account? Sign up <a href="#Signup">here</a></div>
+  <p></p>
+</form>
+  <h2>Signup</h2>
+  <form class="needs-validation" id="Signup" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">Full Name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last Name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+    <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Username</label>
+      <div class="input-group">
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustomUsername">Email</label>
+        <div class="input-group">
+          </div>
+          <input type="text" class="form-control" id="validationCustomEmail" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+          <div class="invalid-feedback">
+            Please choose a valid email.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+      <div class="col-md-5">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+    </div>
+    <div class="form-row align-items-center">
+       <div class="col-auto my-1">
+         <label for="inlineFormCustomSelect">Country</label>
+         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+           <option selected>Choose...</option>
+           <option value="1">United Kingdom</option>
+           <option value="2">Ireland</option>
+           <option value="3">Other</option>
+         </select>
+       </div>
+  </div>
+</div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-secondary" type="submit">Sign up</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+  </main>
+  <footer id = "footer">Site Made By: Ryan Duffy & supported by sexy Rach</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Endless Possibilities</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="Ryans-css-1.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src = "C:\Users\Ryan Duffy\Documents\Atom Projects\Ryan's Webpage\JavaScript Files\Script1.js"></script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="navbar-brand">Experimentation Lab</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          JavaScript Experiments
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Javascript.html">Basic Algorithms</a>
+          <a class="dropdown-item" href="DOM.html">DOM Manipulation Experimentation</a>
+          <a class="dropdown-item" href="Dicee.html">The Dicee Game!</a>
+          <a class="dropdown-item" href="Advanced_JS.html">Advanced JS and DOM Manipulation</a>
+        </div>
+      </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      JS Frameworks
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="JQuery.html">JQuery Experimentation</a>
+      <a class="dropdown-item" href="React.html">The Simon Game</a>
+      <a class="dropdown-item" href="React.html">Node.js (Notes)</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#"></a>
+    </div>
+  </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Ruby.html">Backend Experimentation</a>
+      </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Login-Signup.html"">Login/Signup</a>
+  </li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-secondary" type="submit">Search</button>
+</form>
+</div>
+</nav><div class = "container-fluid">
+        <h2 class="display-4">JavaScripting Fundamentals</h2>
+        <h3 class = "display-4">Basic Algorithms</h3>
+        <hr class="my-4">
+</div>
+    <main>
+        <div class = "row">
+            <div class="col-md-3">
+            <h2>Algorithm 1</h2>
+            <h3>Celsius to Fahrenheit</h3>
+            <label for="Degrees-To-Celsius">Enter an amount in Fahrenheit:</label>
+            <input type="number" class="form-control" id="Degrees-To-Celsius"/>
+                <input type = "button" id ="calculate" value="Calculate" onclick ="calculateCelsius();"/>
+                <div id ="Celsius"></div>
+            </div>
+
+            <div class="col-md-3">
+            <h2>Algorithm 2</h2>
+            <h3>Reverse the order of a word! </h3>
+                <label for="Degrees-To-Celsius">Enter any word:</label>
+                <input type="text" class="form-control" id="ReversalInput"/>
+                <input type = "button" id ="Reverse" value="Reverse" onclick ="stringReversal();"/>
+                <div id ="Reversed"></div>
+            </div>
+
+            <div class="col-md-3">
+                <h2>Algorithm 3</h2>
+                <h3>Factorialise a Number!</h3>
+                    <label for="Degrees-To-Celsius">Enter any number to factorialise!:</label>
+                    <input type="text" class="form-control" id="FactorialiseInput"/>
+                    <input type = "button" id ="Factorialise" value="Factorialise" onclick ="factorialise();"/>
+                    <div id ="Factorised"></div>
+                </div>
+        </div>
+        <div class ="row"></div>
+
+        <div class = "row">
+
+        <div class = "col-md-3">
+          <h2>Algorithm 4</h>
+          <h3>Check your love!</h3>
+          <input type = "button" id ="LoveScoreButton" value="LoveScore" onclick ="LoveScore();"/>
+          <div id = "LoveScoreDiv"> </div>
+        </div>
+
+        <div class = "col-md-3">
+          <h2>Algorithm 5</h>
+          <h3>Try the fizzbuzz sequence</h2>
+          <input type = "button" id ="FizzBuzzButton" value="Output to Console" onclick ="fizzbuzz();"/>
+        </div>
+
+        <div class = "col-md-3">
+          <h2>Algorithm 6</h>
+          <h3>Try the fibonacci sequence</h2>
+          <input type = "button" id ="fibonaccibutton" value="Print Sequence Below!" onclick ="fibonacci();"/>
+          <div id ="FibonacciOutput"></div>
+        </div>
+    </main>
+
+    <footer class ="footer" id = "footer">Site Made By: Ryan Duffy</footer>
+</div>
+</body>
+<script src="JavaScript Files\Script1.js"></script>
+</html>

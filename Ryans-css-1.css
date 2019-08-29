@@ -1,0 +1,45 @@
+h1 {
+  color: black;
+  font-family: arial;
+  width: 75%;
+}
+
+h2 {
+  color: black;
+  font-family: arial;
+  width: 75%;
+}
+
+nav {
+  font-family: lobster;
+  padding-bottom: 10px;
+}
+
+body{
+  background-color: white;
+}
+
+main{
+  color: black;
+  font-family: arial;
+  font-size: 12pt;
+
+}
+
+footer{
+font-family: arial;
+font-size: 12pt;
+color: black;
+position: absolute;
+bottom: 0;
+}
+
+
+main{
+  padding: 10px;
+}
+
+.jumbotron{
+  background-color: white;
+  margin: 0px 0px 0px 0px;
+}
